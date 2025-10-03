@@ -2,7 +2,7 @@
 import userController from "../controllers/userController.js";
 import 'dotenv/config';
 
-// ✅ Usar do environment também
+
 const JWTSecret = process.env.JWT_SECRET;
 
 // Função de autenticação com JWT 

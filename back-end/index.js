@@ -5,8 +5,8 @@ import Hortalica from "./models/Hortalica.js";
 import User from "./models/User.js";
 import userRoutes from "./routes/userRoutes.js";
 import hortalicaRoutes from "./routes/hortalicaRoutes.js";
-import path from "path"; // ✅ IMPORTAR
-import { fileURLToPath } from 'url'; // ✅ IMPORTAR
+import path from "path"; 
+import { fileURLToPath } from 'url';
 
 //Importando mongoose
 import mongoose from "mongoose";

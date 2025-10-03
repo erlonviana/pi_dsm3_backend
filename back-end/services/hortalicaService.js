@@ -48,7 +48,7 @@ class hortalicaService {
                         nivel_agua
                     }
                 },
-                { new: true } // Retorna o documento atualizado
+                { new: true }
             );
             console.log(`✅ Dados da hortaliça com id ${id} alterados com sucesso`)
             return updateHortalica;
@@ -74,7 +74,7 @@ class hortalicaService {
             });
             
             await newHortalica.save();
-            console.log(`✅ Hortaliça cadastrada com sucesso - ID: ${newHortalica._id}`) // ✅ Corrigido: usa newHortalica._id
+            console.log(`✅ Hortaliça cadastrada com sucesso - ID: ${newHortalica._id}`)
             return newHortalica;
         } catch (error) {
             console.log("❌ Erro ao criar hortalica no hortalicaService:", error);

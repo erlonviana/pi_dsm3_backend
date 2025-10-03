@@ -33,7 +33,7 @@ const userSchema = new mongoose.Schema({
     required: true
   },
     //Caminho para upload de imagens:
-    profileImage: { type: String, default: "front-end/uploads/profile/arquivo.png" }, //-> criar esta pasta e arquivo no front-end
+    profileImage: { type: String, default: "front-end/uploads/profile/arquivo.png" },
 }, {
   timestamps: true
 });

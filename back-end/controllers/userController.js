@@ -29,7 +29,7 @@ const loginUser = async (req, res) => {
         
         // Email válido
         if (email !== undefined) {
-            const user = await userService.getOneByEmail(email); // ✅ Método correto
+            const user = await userService.getOneByEmail(email);
             
             // Usuário encontrado
             if (user !== undefined && user !== null) {
@@ -154,7 +154,7 @@ const getUserById = async (req, res) => {
     try {
         if (ObjectId.isValid(req.params.id)) {
             const id = req.params.id;
-            const user = await userService.getOneById(id); // ✅ Método correto
+            const user = await userService.getOneById(id);
             
             if (!user) {
                 return res.status(404).json({ error: "❌ Usuário não encontrado" });

@@ -41,7 +41,7 @@ class userService {
     // Alterando dados do usuário
     async updateUser(id, firstname, lastname, email, phoneNumber, password, gender, profileImage) {
         try{
-            // ✅ Se for atualizar senha, criptografar também
+            
             let updateData = {
                 firstname,
                 lastname,
