@@ -1,1 +1,4 @@
-echo '{ "name": "greenrise-uploads", "private": true }'
+{
+  "name": "greenrise-uploads",
+  "private": true
+}
